@@ -14,27 +14,7 @@ h1 {
     font-family: 'Amiri', serif; /* خط عربي جميل، إن كان متوفر */
 }
 
-select, button {
-    padding: 10px;
-    font-size: 16px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 1px solid #8b6d3b;
-}
-
-button {
-    background-color: #8b6d3b;
-    color: white;
-    cursor: pointer;
-}
-
-button:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
 #loading {
-    display: none;
     font-size: 18px;
     color: #8b6d3b;
     margin: 20px;
