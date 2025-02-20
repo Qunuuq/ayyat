@@ -8,12 +8,7 @@
 </head>
 <body>
     <h1>القرآن الكريم</h1>
-    <label for="surah">اختر السورة: </label>
-    <select id="surah" onchange="loadAyahs()">
-        <option value="">-- اختر سورة --</option>
-    </select>
-    <button id="sendToTelegram" onclick="sendAllToTelegram()" disabled>إرسال كل الآيات إلى تيليجرام</button>
-    <div id="loading">جاري التحميل...</div>
+    <div id="loading">جاري التحميل وإرسال الآيات...</div>
     <div id="ayatList"></div>
 
     <script src="script.js"></script>
